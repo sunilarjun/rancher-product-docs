@@ -63,6 +63,13 @@ For additional details, see the Security Advisories and CVEs page in Rancher's x
 
 * Fixed an issue where after updating an RKE2 or K3s cluster to a supported Kubernetes version, the S3 snapshot retention would default to `5`, ignoring any previously set `snapshotRetention` values. Refer to https://github.com/k3s-io/k3s/issues/13769[#13769] for more information. See https://github.com/rancher/rancher/issues/52710[#52710].
 
+== Virtualization Management (Harvester)
+
+[#_known_issues_1]
+=== Known Issues
+
+*  A known issue occurs in airgapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. See https://github.com/rancher/rancher/issues/54658[#54658].
+
 == Changes Since {previous-release-version}
 
 See the full list of https://github.com/rancher/rancher/compare/{previous-release-version}%E2%80%A6{release-version}[changes].

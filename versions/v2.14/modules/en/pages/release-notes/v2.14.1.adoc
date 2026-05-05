@@ -272,6 +272,14 @@ For examples on how to create clusters using this method with CAPA and CAPV, ref
 === Major Bug Fixes
 
 * Fixed an issue where under certain circumstances, drift correction in Fleet v0.15.0 would not work as expected with Helm v4. See the {rn-fleet-drift}[v0.15.0 changelog] and https://github.com/rancher/fleet/issues/4878[#4878].
+
+== Virtualization Management (Harvester)
+
+[#_known_issues_1]
+=== Known Issues
+
+*  A known issue occurs in airgapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. See https://github.com/rancher/rancher/issues/54396[#54396].
+
 endif::[]
 
 //Community release content section, remove in following release
@@ -314,6 +322,13 @@ ifeval::["{build-type}" == "community"]
 === Major Bug Fixes
 
 * Fixed an issue where under certain circumstances, drift correction in Fleet v0.15.0 would not work as expected with Helm v4. See the {rn-fleet-drift}[v0.15.0 changelog] and https://github.com/rancher/fleet/issues/4878[#4878].
+
+== Virtualization Management (Harvester)
+
+[#_known_issues_2]
+=== Known Issues
+
+*  A known issue occurs in airgapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. See https://github.com/rancher/rancher/issues/54396[#54396].
 endif::[]
 
 [#_changes_since_previous_release_version]
