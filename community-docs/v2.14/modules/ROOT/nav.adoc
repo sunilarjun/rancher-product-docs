@@ -130,7 +130,7 @@
 **** xref:how-to-guides/new-user-guides/manage-clusters/rotate-certificates.adoc[]
 **** xref:how-to-guides/new-user-guides/manage-clusters/rotate-encryption-key.adoc[]
 **** xref:how-to-guides/new-user-guides/manage-clusters/manage-cluster-templates.adoc[]
-**** xref:how-to-guides/new-user-guides/manage-clusters/nodes-and-node-pools.adoc[]
+**** xref:how-to-guides/new-user-guides/manage-clusters/nodes-and-machine-pools.adoc[]
 **** xref:how-to-guides/new-user-guides/manage-clusters/clean-cluster-nodes.adoc[]
 *** xref:how-to-guides/new-user-guides/kubernetes-cluster-setup/index.adoc[]
 **** xref:how-to-guides/new-user-guides/kubernetes-cluster-setup/high-availability-installs.adoc[]
