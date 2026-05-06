@@ -2,7 +2,7 @@
 ifeval::["{build-type}" != "srfa"]
 :page-languages: [en, zh]
 endif::[]
-:revdate: 2026-04-22
+:revdate: 2026-05-06
 :page-revdate: {revdate}
 :release-version: v2.12.9
 :rn-component-version: v2.12
@@ -51,7 +51,7 @@ For additional details, see the Security Advisories and CVEs page in Rancher's x
 [#_known_issues_1]
 === Known Issues
 
-*  A known issue occurs in airgapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. See https://github.com/rancher/rancher/issues/54659[#54659].
+*  A known issue occurs in air-gapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. As a workaround, you can remove the `Compressed Endpoint` via `kubectl edit` using the example command `kubectl edit uiplugin harvester -n cattle-ui-plugin-system`. Once removed, the Harvester UI Plugin is immediately available. See https://github.com/rancher/rancher/issues/54659[#54659].
 
 == Changes Since {previous-release-version}
 
