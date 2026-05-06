@@ -247,7 +247,7 @@ For examples on how to create clusters using this method with CAPA and CAPV, ref
 [#_known_issues_2]
 === Known Issues
 
-*  A known issue occurs in air-gapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. As a workaround, you can remove the `Compressed Endpoint` via `kubectl edit` using the example command `kubectl edit uiplugin harvester -n cattle-ui-plugin-system`. Once removed, the Harvester UI Plugin is immediately available. See https://github.com/rancher/rancher/issues/54396[#54396].
+*  A known issue occurs in air-gapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. As a workaround, you can remove the `compressedEndpoint` via `kubectl edit` using the command `kubectl edit uiplugin harvester -n cattle-ui-plugin-system`. Once removed, the Harvester UI Plugin is immediately available. See https://github.com/rancher/rancher/issues/54396[#54396].
 endif::[]
 
 //Community release content section, remove in following release
@@ -288,7 +288,7 @@ ifeval::["{build-type}" == "community"]
 [#_known_issues_1]
 === Known Issues
 
-*  A known issue occurs in air-gapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. As a workaround, you can remove the `Compressed Endpoint` via `kubectl edit` using the example command `kubectl edit uiplugin harvester -n cattle-ui-plugin-system`. Once removed, the Harvester UI Plugin is immediately available. See https://github.com/rancher/rancher/issues/54396[#54396].
+*  A known issue occurs in air-gapped Harvester installations where the `ui-plugin-catalog` container `Compressed Endpoint` prevents installation. As a workaround, you can remove the `compressedEndpoint` via `kubectl edit` using the command `kubectl edit uiplugin harvester -n cattle-ui-plugin-system`. Once removed, the Harvester UI Plugin is immediately available. See https://github.com/rancher/rancher/issues/54396[#54396].
 endif::[]
 
 == Changes Since {previous-release-version}
